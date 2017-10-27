@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0039732b-70e8-4ed3-9dcb-f640479b92f4" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/read.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/databaseSchema" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/task.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/task.php" afterPath="$PROJECT_DIR$/tasks/task.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,31 +21,52 @@
       <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="42">
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding>
-                <marker date="1509081462000" expanded="true" signature="563:615" ph="INSERT INTO tasks... " />
-                <marker date="1509081462000" expanded="true" signature="887:906" ph="SELECT * FRO... tasks" />
-                <marker date="1509081462000" expanded="true" signature="1192:1232" ph="UPDATE tasks... " />
-                <marker date="1509081462000" expanded="true" signature="1209:1210" ph="UPDATE tasks... " />
-                <marker date="1509081462000" expanded="true" signature="1402:1447" ph="UPDATE tasks... " />
-                <marker date="1509081462000" expanded="true" signature="1402:1448" ph="UPDATE tasks... " />
+                <marker date="1509109149000" expanded="true" signature="544:596" ph="INSERT INTO tasks... " />
+                <marker date="1509109149000" expanded="true" signature="865:884" ph="SELECT * FRO... tasks" />
+                <marker date="1509109149000" expanded="true" signature="1131:1154" ph="UPDATE tasks... " />
+                <marker date="1509109149000" expanded="true" signature="1131:1155" ph="UPDATE tasks... " />
+                <marker date="1509109149000" expanded="true" signature="1131:1156" ph="UPDATE tasks... " />
+                <marker date="1509109149000" expanded="true" signature="1131:1177" ph="UPDATE tasks... " />
+                <marker date="1509109149000" expanded="true" signature="1131:1178" ph="UPDATE tasks... " />
+                <marker date="1509109149000" expanded="true" signature="1330:1362" ph="UPDATE tasks... " />
+                <marker date="1509109149000" expanded="true" signature="1330:1391" ph="UPDATE tasks... " />
+                <marker date="1509109149000" expanded="true" signature="1538:1589" ph="UPDATE tasks... " />
+                <marker date="1509109149000" expanded="true" signature="1756:1801" ph="UPDATE tasks... " />
+                <marker date="1509109149000" expanded="true" signature="1756:1802" ph="UPDATE tasks... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+            <state relative-caret-position="483">
+              <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="databaseSchema" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/databaseSchema">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="54" lean-forward="false" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>echo</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,8 +77,9 @@
         <option value="$PROJECT_DIR$/Tasks/task.php" />
         <option value="$PROJECT_DIR$/tasks/read.php" />
         <option value="$PROJECT_DIR$/tasks/task.php" />
-        <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/config/databaseSchema" />
       </list>
     </option>
   </component>
@@ -88,7 +111,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -121,26 +143,13 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MasterStream_code_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MasterStream_code_test" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,8 +161,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,12 +262,14 @@
       <updated>1508911629292</updated>
       <workItem from="1508911630885" duration="6287000" />
       <workItem from="1509066966893" duration="261000" />
-      <workItem from="1509067424995" duration="12898000" />
+      <workItem from="1509067424995" duration="17485000" />
+      <workItem from="1509088619735" duration="9000" />
+      <workItem from="1509088648597" duration="1379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19446000" />
+    <option name="totallyTimeSpent" value="25421000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -269,7 +284,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26655897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -284,7 +299,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -301,59 +316,84 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+          <folding>
+            <marker date="1509109149000" expanded="true" signature="544:596" ph="INSERT INTO tasks... " />
+            <marker date="1509109149000" expanded="true" signature="865:884" ph="SELECT * FRO... tasks" />
+            <marker date="1509109149000" expanded="true" signature="1131:1154" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1155" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1156" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1177" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1178" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1330:1362" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1330:1391" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1538:1589" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1756:1801" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1756:1802" ph="UPDATE tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="32" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+          <folding>
+            <marker date="1509109149000" expanded="true" signature="544:596" ph="INSERT INTO tasks... " />
+            <marker date="1509109149000" expanded="true" signature="865:884" ph="SELECT * FRO... tasks" />
+            <marker date="1509109149000" expanded="true" signature="1131:1154" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1155" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1156" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1177" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1178" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1330:1362" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1330:1391" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1538:1589" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1756:1801" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1756:1802" ph="UPDATE tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="32" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1509081462000" expanded="true" signature="563:615" ph="INSERT INTO tasks... " />
-            <marker date="1509081462000" expanded="true" signature="887:906" ph="SELECT * FRO... tasks" />
-            <marker date="1509081462000" expanded="true" signature="1192:1232" ph="UPDATE tasks... " />
-            <marker date="1509081462000" expanded="true" signature="1209:1210" ph="UPDATE tasks... " />
-            <marker date="1509081462000" expanded="true" signature="1402:1447" ph="UPDATE tasks... " />
-            <marker date="1509081462000" expanded="true" signature="1402:1448" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="544:596" ph="INSERT INTO tasks... " />
+            <marker date="1509109149000" expanded="true" signature="865:884" ph="SELECT * FRO... tasks" />
+            <marker date="1509109149000" expanded="true" signature="1131:1154" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1155" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1156" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1177" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1178" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1330:1362" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1330:1391" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1538:1589" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1756:1801" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1756:1802" ph="UPDATE tasks... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <marker date="1509074820000" expanded="true" signature="407:420" ph="SELECT * FRO... " />
-            <marker date="1509074820000" expanded="true" signature="407:421" ph="SELECT * FRO... ${$this}" />
-            <marker date="1509074820000" expanded="true" signature="407:422" ph="SELECT * FRO... ${$this-&gt;table_name}" />
-            <marker date="1509074820000" expanded="true" signature="407:425" ph="SELECT * FRO... $" />
-            <marker date="1509074820000" expanded="true" signature="407:431" ph="SELECT * FRO... ${$this}" />
-            <marker date="1509074820000" expanded="true" signature="462:487" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:491" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:493" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:506" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:508" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:516" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:535" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="679:691" ph="INSERT INTO ${$this-&gt;}... " />
-            <marker date="1509074820000" expanded="true" signature="679:694" ph="INSERT INTO . ${$THIS}... " />
-            <marker date="1509074820000" expanded="true" signature="679:695" ph="INSERT INTO . $... " />
-            <marker date="1509074820000" expanded="true" signature="679:701" ph="INSERT INTO . ${$this}... " />
-            <marker date="1509074820000" expanded="true" signature="679:714" ph="INSERT INTO ${$this-&gt;table_name}... " />
-            <marker date="1509074820000" expanded="true" signature="679:722" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:742" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:743" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:783" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:784" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:805" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:811" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:813" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:818" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:820" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:837" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:839" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="940:979" ph="INSERT INTO ?... " />
-            <marker date="1509074820000" expanded="true" signature="1000:1073" ph="INSERT INTO tasks... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/task.php" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -367,56 +407,23 @@
         <state relative-caret-position="168">
           <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
-            <marker date="1509081462000" expanded="true" signature="563:615" ph="INSERT INTO tasks... " />
-            <marker date="1509081462000" expanded="true" signature="887:906" ph="SELECT * FRO... tasks" />
-            <marker date="1509081462000" expanded="true" signature="1192:1232" ph="UPDATE tasks... " />
-            <marker date="1509081462000" expanded="true" signature="1209:1210" ph="UPDATE tasks... " />
-            <marker date="1509081462000" expanded="true" signature="1402:1447" ph="UPDATE tasks... " />
-            <marker date="1509081462000" expanded="true" signature="1402:1448" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="544:596" ph="INSERT INTO tasks... " />
+            <marker date="1509109149000" expanded="true" signature="865:884" ph="SELECT * FRO... tasks" />
+            <marker date="1509109149000" expanded="true" signature="1131:1154" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1155" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1156" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1177" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1178" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1330:1362" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1330:1391" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1538:1589" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1756:1801" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1756:1802" ph="UPDATE tasks... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <marker date="1509074820000" expanded="true" signature="407:420" ph="SELECT * FRO... " />
-            <marker date="1509074820000" expanded="true" signature="407:421" ph="SELECT * FRO... ${$this}" />
-            <marker date="1509074820000" expanded="true" signature="407:422" ph="SELECT * FRO... ${$this-&gt;table_name}" />
-            <marker date="1509074820000" expanded="true" signature="407:425" ph="SELECT * FRO... $" />
-            <marker date="1509074820000" expanded="true" signature="407:431" ph="SELECT * FRO... ${$this}" />
-            <marker date="1509074820000" expanded="true" signature="462:487" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:491" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:493" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:506" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:508" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:516" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:535" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="679:691" ph="INSERT INTO ${$this-&gt;}... " />
-            <marker date="1509074820000" expanded="true" signature="679:694" ph="INSERT INTO . ${$THIS}... " />
-            <marker date="1509074820000" expanded="true" signature="679:695" ph="INSERT INTO . $... " />
-            <marker date="1509074820000" expanded="true" signature="679:701" ph="INSERT INTO . ${$this}... " />
-            <marker date="1509074820000" expanded="true" signature="679:714" ph="INSERT INTO ${$this-&gt;table_name}... " />
-            <marker date="1509074820000" expanded="true" signature="679:722" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:742" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:743" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:783" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:784" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:805" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:811" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:813" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:818" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:820" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:837" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:839" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="940:979" ph="INSERT INTO ?... " />
-            <marker date="1509074820000" expanded="true" signature="1000:1073" ph="INSERT INTO tasks... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/task.php" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -425,65 +432,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="45" column="10" lean-forward="false" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-          <folding>
-            <marker date="1509074820000" expanded="true" signature="407:420" ph="SELECT * FRO... " />
-            <marker date="1509074820000" expanded="true" signature="407:421" ph="SELECT * FRO... ${$this}" />
-            <marker date="1509074820000" expanded="true" signature="407:422" ph="SELECT * FRO... ${$this-&gt;table_name}" />
-            <marker date="1509074820000" expanded="true" signature="407:425" ph="SELECT * FRO... $" />
-            <marker date="1509074820000" expanded="true" signature="407:431" ph="SELECT * FRO... ${$this}" />
-            <marker date="1509074820000" expanded="true" signature="462:487" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:491" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:493" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:506" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:508" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:516" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="462:535" ph="INSERT INTO tasks... " />
-            <marker date="1509074820000" expanded="true" signature="679:691" ph="INSERT INTO ${$this-&gt;}... " />
-            <marker date="1509074820000" expanded="true" signature="679:694" ph="INSERT INTO . ${$THIS}... " />
-            <marker date="1509074820000" expanded="true" signature="679:695" ph="INSERT INTO . $... " />
-            <marker date="1509074820000" expanded="true" signature="679:701" ph="INSERT INTO . ${$this}... " />
-            <marker date="1509074820000" expanded="true" signature="679:714" ph="INSERT INTO ${$this-&gt;table_name}... " />
-            <marker date="1509074820000" expanded="true" signature="679:722" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:742" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:743" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:783" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:784" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:805" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:811" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:813" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:818" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:820" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:837" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="679:839" ph="INSERT INTO ${$this-&gt;table_name}VALUES... " />
-            <marker date="1509074820000" expanded="true" signature="940:979" ph="INSERT INTO ?... " />
-            <marker date="1509074820000" expanded="true" signature="1000:1073" ph="INSERT INTO tasks... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.htaccess" />
+    <entry file="file://$PROJECT_DIR$/tasks/task.php" />
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="42">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding>
-            <marker date="1509081462000" expanded="true" signature="563:615" ph="INSERT INTO tasks... " />
-            <marker date="1509081462000" expanded="true" signature="887:906" ph="SELECT * FRO... tasks" />
-            <marker date="1509081462000" expanded="true" signature="1192:1232" ph="UPDATE tasks... " />
-            <marker date="1509081462000" expanded="true" signature="1209:1210" ph="UPDATE tasks... " />
-            <marker date="1509081462000" expanded="true" signature="1402:1447" ph="UPDATE tasks... " />
-            <marker date="1509081462000" expanded="true" signature="1402:1448" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="544:596" ph="INSERT INTO tasks... " />
+            <marker date="1509109149000" expanded="true" signature="865:884" ph="SELECT * FRO... tasks" />
+            <marker date="1509109149000" expanded="true" signature="1131:1154" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1155" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1156" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1177" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1131:1178" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1330:1362" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1330:1391" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1538:1589" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1756:1801" ph="UPDATE tasks... " />
+            <marker date="1509109149000" expanded="true" signature="1756:1802" ph="UPDATE tasks... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        <state relative-caret-position="483">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/databaseSchema">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="54" lean-forward="false" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
           <folding />
         </state>
       </provider>

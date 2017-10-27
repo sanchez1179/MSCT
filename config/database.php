@@ -1,7 +1,6 @@
 <?php
 class Database {
     private $db;
-    //private $id;
     private $host = "localhost";
     private $db_name = "TMA API";
     private $username = "root";
@@ -26,19 +25,30 @@ class Database {
         $this->id = $this->id + 1;
     }
 
-    public function getTaskList() {
+    public function taskList() {
         $query = "SELECT * FROM tasks";
         $stmt = $this->db->prepare($query);
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    public function updateTask($id, $updates) {
-        foreach($updates as $key => $values){
-            echo $key .'=>'. $values;
-//            $query = "UPDATE tasks $key  = $values WHERE id = $id";
-//            $stmt = $this->db->prepare($query);
-//            $stmt->execute();
+    public function updateTask($id, $name, $description, $status) {
+        if ($name != "") {
+            $query = "UPDATE tasks SET name = '".$name."' WHERE id = ".$id;
+            $stmt = $this->db->prepare($query);
+            $stmt->execute();
+        }
+
+        if ($description != "") {
+            $query = "UPDATE tasks SET description = '".$description."' WHERE id = ".$id;
+            $stmt = $this->db->prepare($query);
+            $stmt->execute();
+        }
+
+        if ($status != "") {
+            $query = "UPDATE tasks SET status = '".$status."' WHERE id = ".$id;
+            $stmt = $this->db->prepare($query);
+            $stmt->execute();
         }
     }
 
