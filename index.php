@@ -1,16 +1,21 @@
 <?php
-// required headers
+
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
-
+// include database and object files
 include_once './config/database.php';
+
+
 
 
 $ishTask = array("name" => "Eli", "description" => "Hello", "status" => "In pain");
 
 
 $DB = new Database();
+
+
+$DB->updateTask(3 ,"Build API", "Get Internship", "Progress");
 
 $table = $DB->taskList();
 
