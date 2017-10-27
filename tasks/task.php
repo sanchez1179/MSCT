@@ -3,6 +3,7 @@
 class Task{
     private $conn;
     private $table_name = "tasks";
+    private $id = 1;
 
     //task properties
     public $name;
@@ -18,12 +19,32 @@ class Task{
 
     }
 
-    public function read(){
+    public function getTaskList(){
 
-        $query = "SELECT * FROM $this->table_name";
-        $stmt = $this->conn->prepare($query);
-        $stmt->execute();
 
-        return $stmt;
+        //$query = "SELECT * FROM  ".$this->table_name;
+
+        $query = 'INSERT INTO tasks VALUES("ish", "description", "status", NOW(), NULL, 1 )';
+        $stmt  = $this->conn->prepare($query);
+        $this->conn->exec($query);
+
+    }
+
+    public function addTask(){
+//        $query = "INSERT INTO ". $this->table_name . "VALUES(" . $task->name . "," . $task->description .
+//            "," . $task->status . ", NOW() , NULL ,". $this->id . ");";
+//
+//        $stmt = $this->conn->prepare($query);
+//        $stmt->execute();
+//        $query = "INSERT INTO ? VALUES(?, ?, ?, ?, ?, ? )";
+        $query = "INSERT INTO tasks VALUES('ish', 'description', 'status', NOW(), NULL, 1 );";
+        //$stmt  = $this->conn->prepare($query);
+        $this->conn->exec($query);
+//        $stmt->execute(array($this->table_name, $task->name, $task->description, $task->status, "NOW()", "NULL", $this->id));
+        //$this->id = $this->id + 1;
+
+        //return $stmt;
+
+
     }
 }
